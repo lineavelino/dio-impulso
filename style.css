@@ -45,3 +45,12 @@ a {
 .post-image {
     margin-bottom: 15px;
 }
+
+.contacts-list {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.contacts-list li a {
+    text-decoration: none;
+}
