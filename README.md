@@ -1,6 +1,6 @@
 # Impulso React Web Developer :computer:
 
-Repositório utilizado para armazenar os projetos desenvolvidos durante o bootcamp da Digital Innovation One em parceria com a Impulso Networking, iniciado em 04/10/2021 e em progresso.
+Repositório utilizado para armazenar os projetos desenvolvidos durante o bootcamp da Digital Innovation One em parceria com a Impulso Network, iniciado em 04/10/2021 e em progresso.
 
 ### [Módulo HTML e CSS](https://github.com/lineavelino/dio-impulso/tree/main/dio-htmlcss)
 
