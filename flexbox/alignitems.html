@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align items</title>
+
+    <style>
+        h1 {
+            background-color: yellowgreen;
+        }
+
+        .container {
+            border: 1px solid black;
+            max-width: 350px;
+            display: flex;
+        }
+
+        .item {
+            background-color: darkslategrey;
+            margin: 5px;
+            color: lightyellow;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center {
+            align-items: center;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .start {
+            align-items: flex-start;
+        }
+
+        .end {
+            align-items: flex-end;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .central {
+            height: 300px;
+            justify-content: center;
+        }
+
+        .central .item {
+            flex: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Row</h1>
+
+    <h2>Center</h2>
+    <section class="container center">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+    </section>
+
+    <h2>Stretch</h2>
+    <section class="container stretch">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+    </section>
+
+    <h2>Flex start</h2>
+    <section class="container start">
+        <div class="item">Item 1</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+    </section>
+
+    <h2>Flex end</h2>
+    <section class="container end">
+        <div class="item">Item 1</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+    </section>
+
+    <h2>Baseline</h2>
+    <section class="container baseline">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+    </section>
+
+    <h1>Column</h1>
+
+    <h2>Flex start</h2>
+    <section class="container start column">
+        <div class="item">Item 1</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+    </section>
+
+    <h2>Flex end</h2>
+    <section class="container end column">
+        <div class="item">Item 1</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+    </section>
+
+    <h2>Center</h2>
+    <section class="container center column">
+        <div class="item">Item 1</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+    </section>
+
+    <h2>Baseline</h2>
+    <section class="container baseline column">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Item 3. Lorem ipsum dolor sit amet.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minima.</div>
+    </section>
+
+    <h2>Alinhamento central à tela</h2>
+    <section class="container central center">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium est exercitationem
+            tempora velit repellendus odit.</div>
+    </section>
+</body>
+
+</html>
