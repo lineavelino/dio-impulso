@@ -12,6 +12,7 @@
             display: flex;
             border: 1px solid black;
             max-width: 350px;
+            margin-bottom: 10px;
         }
 
         .item {
@@ -28,16 +29,56 @@
         .fg-1 {
             flex-grow: 1;
         }
+
+        .s-0 {
+            flex-shrink: 0;
+            flex-basis: 200px;
+        }
+
+        .s-2 {
+            flex-shrink: 2;
+            flex-basis: 200px;
+        }
+
+        .s-3 {
+            flex-shrink: 3;
+            flex-basis: 200px;
+        }
     </style>
 </head>
 
 <body>
+    <h2>Flex shrink 1</h2>
     <div class="flex-container">
         <div class="item s-1 fg-1">A</div>
         <div class="item s-1 fg-1">B</div>
         <div class="item s-1 fg-1">C</div>
         <div class="item s-1 fg-1">D</div>
         <div class="item s-1 fg-1">E</div>
+    </div>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">The generated</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+
+    <h2>Flex shrink 0 / basis 100px</h2>
+    <div class="flex-container">
+        <div class="item s-0 fg-1">A</div>
+        <div class="item s-0 fg-1">The generated</div>
+        <div class="item s-0 fg-1">C generated</div>
+        <div class="item s-0 fg-1">D generated</div>
+        <div class="item s-0 fg-1">E</div>
+    </div>
+
+    <h2>Flex shrink mix / basis 100px</h2>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-2 fg-1">The generated</div>
+        <div class="item s-2 fg-1">C</div>
+        <div class="item s-3 fg-1">D</div>
     </div>
 </body>
 
