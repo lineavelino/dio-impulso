@@ -2,7 +2,7 @@
 
 Repositório utilizado para armazenar os projetos desenvolvidos durante o bootcamp da Digital Innovation One em parceria com a Impulso Network, iniciado em 04/10/2021 e em progresso.
 
-### [Módulo HTML e CSS](https://github.com/lineavelino/dio-impulso/tree/main/dio-htmlcss)
+### [Módulo HTML e CSS](https://github.com/lineavelino/dio-impulso/tree/main/htmlcss)
 
 Conceitos abordados no módulo "Introdução à criação de websites com HTML5 e CSS3":
 
@@ -13,3 +13,22 @@ Conceitos abordados no módulo "Introdução à criação de websites com HTML5 
 - Conceitos básicos do CSS3
 - Estilização de elementos, textos e listas
 - Dimensões e alinhamento
+
+### [Módulo Flexbox CSS](https://github.com/lineavelino/dio-impulso/tree/main/flexbox)
+
+Conceitos abordados no módulo "Posicionando elementos com Flexbox em CSS":
+
+- Flex container (display flex, flex-direction, wrap, flow, justify-content, align-items, align-content)
+- Flex item (flex-grow, basis, shrink, order, align-self)
+- Projeto integrador para aplicação dos conceitos
+
+### [Módulo Sintaxe e Operadores](https://github.com/lineavelino/dio-impulso/tree/main/sintaxe-operadores)
+
+Conceitos abordados no módulo "Sintaxe e Operadores" usando javascript:
+
+- Operadores aritméticos
+- Atribuição
+- Comparação
+- Lógica
+- Condicional
+- Atividade prática
