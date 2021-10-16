@@ -44,7 +44,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capasexeducation.jpg');
 
-    height: 400px;
+    height: 600px;
     background-size: cover;
 
     display: flex;
@@ -54,9 +54,32 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.titulo {
+.filme-principal .titulo {
+    /* margin-top: 15%; */
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
 }
