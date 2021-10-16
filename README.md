@@ -22,6 +22,15 @@ Conceitos abordados no módulo "Posicionando elementos com Flexbox em CSS":
 - Flex item (flex-grow, basis, shrink, order, align-self)
 - Projeto integrador para aplicação dos conceitos
 
+### [Projeto - clone Netflix](https://github.com/lineavelino/dio-impulso/tree/main/clone-netflix)
+
+Conceitos abordados no módulo "Recriando a interface da Netflix":
+
+- Estruturar layout com HTML5
+- Técnicas de CSS3 com containers e variáveis
+- Posicionamento de elementos com Flexbox
+- Utilização de plugins JQuery 
+
 ### [Módulo Sintaxe e Operadores](https://github.com/lineavelino/dio-impulso/tree/main/sintaxe-operadores)
 
 Conceitos abordados no módulo "Sintaxe e Operadores" usando javascript:
