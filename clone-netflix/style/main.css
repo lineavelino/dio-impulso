@@ -20,6 +20,7 @@ header {
     position: fixed;
     background-color: var(--preto);
     width: 100%;
+    padding: 0 4%;
 }
 
 header .container {
@@ -29,7 +30,6 @@ header .container {
 }
 
 header .logo {
-    margin-left: 5px;
     color: var(--vermelho);
     font-size: 40px;
 }
@@ -89,12 +89,9 @@ header nav a:hover {
     margin-right: 8px;
 }
 
-.container {
-    margin-left: 20px;
-}
-
 .filme-principal .container {
     width: 70%;
+    margin-left: 3%;
 }
 
 .box-filme {
