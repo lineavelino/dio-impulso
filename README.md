@@ -41,3 +41,17 @@ Conceitos abordados no módulo "Sintaxe e Operadores" usando javascript:
 - Lógica
 - Condicional
 - Atividade prática
+
+### [Módulo Funções](https://github.com/lineavelino/dio-impulso/tree/main/funcoesjs)
+
+Conceitos abordados no módulo "Funções" usando javascript:
+
+- Estrutura e função anônima
+- Função auto invocável e callbacks
+- Valores padrão e objeto "arguments"
+- Arrays e objetos
+- If / else e switch
+- For e while
+- O que é "this" e como manipular seu valor
+- Sintaxe e outras restrições da arrow function
+- Atividade prática
