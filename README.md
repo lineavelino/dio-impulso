@@ -55,3 +55,16 @@ Conceitos abordados no módulo "Funções" usando javascript:
 - O que é "this" e como manipular seu valor
 - Sintaxe e outras restrições da arrow function
 - Atividade prática
+
+
+### [Módulo DOM](https://github.com/lineavelino/dio-impulso/tree/main/dom)
+
+Conceitos abordados no módulo "Manipulando a D.O.M com JavaScript":
+
+- O que é DOM
+- Diferença entre DOM e BOM
+- Principais métodos para manipular páginas da web
+- Estrutura HTML
+- O que são eventos
+- Eventos mais comuns e como acioná-los
+- Atividade prática
